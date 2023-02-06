@@ -5,11 +5,17 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(Image/close-up-hands-barista-make-latte-coffee-art-paint.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
+.fullcoverhome {
+  width: 100%;
+  height: 500px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -96,20 +102,18 @@ body {
 
 /* main */
 .welcome {
+  padding-top: 20px;
   font-family: "Montserrat";
   color: white;
   text-align: center;
-  margin: 80px 50px;
   font-size: 2rem;
 }
 
 @media (max-width: 500px) {
-    .welcome {
-        margin: 20px 50px;
-        font-size: 1rem;
-    }
-
-    @media (max-width: 280px) {
-        .welcome {
-            display: none;
-        }
+  .welcome {
+    font-family: "Montserrat";
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+}

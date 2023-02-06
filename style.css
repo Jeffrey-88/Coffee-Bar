@@ -5,6 +5,9 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url(Image/close-up-hands-barista-make-latte-coffee-art-paint.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .navbar {
@@ -89,4 +92,12 @@ body {
   .navbar-links.active {
     display: flex;
   }
+}
+
+/* main */
+.welcome {
+  font-family: "Montserrat";
+  color: white;
+  text-align: center;
+  margin: 25px;
 }

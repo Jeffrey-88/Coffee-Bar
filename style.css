@@ -99,5 +99,17 @@ body {
   font-family: "Montserrat";
   color: white;
   text-align: center;
-  margin: 25px;
+  margin: 80px 50px;
+  font-size: 2rem;
 }
+
+@media (max-width: 500px) {
+    .welcome {
+        margin: 20px 50px;
+        font-size: 1rem;
+    }
+
+    @media (max-width: 280px) {
+        .welcome {
+            display: none;
+        }

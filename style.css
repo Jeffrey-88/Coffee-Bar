@@ -160,6 +160,14 @@ h2 {
     text-align: center;
     font-size: 1.6rem;
   }
+  .visiting {
+    padding: 30px 20px 0px 20px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 400px) {
@@ -211,7 +219,25 @@ footer p {
 }
 
 /* Main Contact & About */
+.visiting {
+  padding: 30px 20px 0px 20px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  font-size: 1.5rem;
+}
 
+@media (max-width: 500px) {
+  .visiting {
+    padding: 30px 20px 0px 20px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+  }
+}
 /* Footer Contact & About */
 
 .contact {

@@ -3,7 +3,8 @@
 }
 
 body {
-  margin: 0;
+  max-width: 900px;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -181,8 +182,8 @@ h2 {
 
 /* Footer */
 .footer {
-  margin: o;
-  height: 60px;
+  padding-top: 5px;
+  height: 70px;
   background-color: #333;
 }
 
@@ -216,10 +217,13 @@ footer p {
   color: white;
   text-align: center;
   font-size: 0.6rem;
+  padding-bottom: 10px;
 }
 
 /* Main Contact & About */
 .visiting {
+  justify-content: center;
+  display: flex;
   padding: 30px 20px 0px 20px;
   font-family: "Montserrat";
   font-weight: bold;
@@ -240,25 +244,31 @@ footer p {
 }
 .phone {
   margin: 30px;
+  justify-content: center;
   display: flex;
   text-align: center;
 }
 .mail {
   margin: 30px;
+  justify-content: center;
   display: flex;
   text-align: center;
 }
 
 .phone img {
   width: 30px;
+  margin-right: 10px;
   background-color: white;
   border-radius: 10px;
+  padding: 5px;
 }
 
 .mail img {
   width: 30px;
+  margin-right: 10px;
   background-color: white;
   border-radius: 10px;
+  padding: 5px;
 }
 
 .phone a {

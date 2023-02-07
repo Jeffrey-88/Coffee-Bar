@@ -74,6 +74,7 @@ h2 {
   justify-content: space-between;
   width: 30px;
   height: 21px;
+  cursor: pointer;
 }
 
 .toggle-button .bar {
@@ -83,7 +84,7 @@ h2 {
   border-radius: 10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .toggle-button {
     display: flex;
   }
@@ -117,8 +118,9 @@ h2 {
 
 /* main */
 .welcome {
-  padding-top: 20px;
+  padding: 80px 40px 40px;
   font-family: "Montserrat";
+  font-weight: bold;
   color: white;
   text-align: center;
   font-size: 2rem;
@@ -177,7 +179,8 @@ h2 {
 }
 
 footer ul {
-  margin: o;
+  margin: 10px;
+  padding: 0px;
   display: flex;
   list-style: none;
   justify-content: center;
@@ -198,11 +201,53 @@ footer a {
 }
 
 footer p {
-  margin: 0;
+  margin: 0px;
   justify-content: center;
   display: flex;
   font-family: "Montserrat";
   color: white;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+}
+
+/* Main Contact & About */
+
+/* Footer Contact & About */
+
+.contact {
+  margin: o;
+  height: 60px;
+  background-color: white;
+}
+
+.contact ul {
+  margin: 10px;
+  padding: 0px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.contact li {
+  align-items: center;
+}
+
+.contact a {
+  font-family: "Montserrat";
+  color: #333;
+  text-align: center;
+  font-size: 1rem;
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.contact p {
+  margin: 0px;
+  justify-content: center;
+  display: flex;
+  font-family: "Montserrat";
+  color: #333;
+  text-align: center;
+  font-size: 0.6rem;
 }

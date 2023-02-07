@@ -238,6 +238,65 @@ footer p {
     font-size: 1rem;
   }
 }
+.phone {
+  margin: 30px;
+  display: flex;
+  text-align: center;
+}
+.mail {
+  margin: 30px;
+  display: flex;
+  text-align: center;
+}
+
+.phone img {
+  width: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.mail img {
+  width: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.phone a {
+  display: flex;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.mail a {
+  display: flex;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+  .phone a {
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+  }
+  .mail a {
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+  }
+}
 /* Footer Contact & About */
 
 .contact {

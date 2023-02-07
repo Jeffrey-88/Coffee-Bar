@@ -225,7 +225,7 @@ footer p {
   font-weight: bold;
   color: white;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 500px) {
@@ -235,7 +235,7 @@ footer p {
     font-weight: bold;
     color: white;
     text-align: left;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 }
 .phone {
